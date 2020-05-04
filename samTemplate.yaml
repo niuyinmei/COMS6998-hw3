@@ -14,7 +14,7 @@ Resources:
       Timeout: 30
       Role: 'arn:aws:iam::533947249138:role/Role-1'
       Events:
-	S3Trigger:
+        S3Trigger:
           Type: S3
           Properties:
             Bucket: !Ref SrcBucket
