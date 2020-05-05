@@ -5,7 +5,7 @@ import requests
 from elasticsearch import Elasticsearch, RequestsHttpConnection
 from requests_aws4auth import AWS4Auth
 
-
+// commented just now
 rekogclient = boto3.client('rekognition')
 
 region = 'us-east-1'
